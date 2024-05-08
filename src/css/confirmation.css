@@ -1,0 +1,116 @@
+body {
+    height: 100%;
+    /* background-color: #eaf4fe; */
+    font-family: 'Mulish', sans-serif;
+}
+p {
+    font-size: 15px;
+}
+.main {
+    padding: 10px;
+    margin: auto;
+    width: 75%;
+}
+.main-div {
+    display: flex;
+    flex-direction: row;
+}
+.left-div {
+    display: inline-block;
+    width: 63%;
+}
+.right-div {
+    display: inline-block;
+    width: 37%;
+}
+.details-container {
+    margin: 16px 8px;
+    border-radius: 10px;
+    border: 1px solid #ccc;
+    padding: 0.5em 1em 2em;
+}
+.details-container h3{
+    margin-bottom: 12px;
+    margin-left: 4px;
+    margin-right: 4px;
+}
+.details-container h4,p,ul {
+    margin: 4px;
+    font-size: 15px;
+}
+.details-container ul {
+    padding-left: 20px; 
+}
+.form-rows {
+    display: block;
+    width: 50%;
+    margin: 15px 4px 15px;
+    margin-bottom: 15px;
+}
+.form-rows label {
+    display: block;
+    font-weight: 600;
+    font-size: smaller;
+}
+.form-rows input[type="text"],
+.form-rows input[type="tel"],
+.form-rows input[type="email"] {
+    width: 100%;
+    padding: 5px;
+    margin-bottom: 10px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    box-sizing: border-box;
+    font-size: 17px;
+}
+.details-container .box {
+    margin: 4px;
+}
+#button-row {
+    padding: 0.5em;
+    margin: auto;
+    display: flex;
+    justify-content: space-around;
+}
+#button-row button:hover {
+    background-color: #fff;
+    color: black;
+    border: 1px solid black;
+}
+button {
+    display: inline-block;
+    background-color: black;
+    width: 200px;
+    color: white;
+    font-size: 18px;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin: 5px;
+}
+.price-breakdown {
+    margin: 16px 8px 8px 8px;
+    position: sticky;
+    top: 0;
+    border-radius: 10px;
+    border: 1px solid #ccc;
+    padding: 0.5em 1em 2em;
+}
+.price-breakdown p {
+    margin-bottom: 10px
+}
+.price-breakdown h3 {
+    margin-bottom: 12px;
+    margin-left: 4px;
+    margin-right: 4px;
+}
+.inner-left-div {
+    display: inline-block;
+    width: 68%;
+}
+.inner-right-div {
+    display: inline-block;
+    text-align: right;
+    width: 30%;
+}
