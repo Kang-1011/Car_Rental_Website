@@ -18,7 +18,7 @@ This project is about a rental car reservation website built using HTML, CSS, SQ
 ## Setup Instructions
 
 1. Database:
-- Import the COMP1044_database.sql file into your MySQL instance.
+- Import the database.sql file into your MySQL instance.
 - Adjust database connection credentials in your PHP files if needed.
 2. Web Server:
 - Place all project files in the root directory of your web server (e.g., Apache, Nginx).
